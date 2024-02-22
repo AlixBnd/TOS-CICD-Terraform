@@ -1,4 +1,4 @@
-# TOS CICD TERRAFORM
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/6ff3d6cc-58ed-45b3-9375-0e777a5224d3)# TOS CICD TERRAFORM
 
 ![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/a58318c9-8bb6-47aa-b476-6f00afa55f0e)
 
@@ -22,11 +22,11 @@ https://developer.hashicorp.com/terraform/tutorials/azure-get-started
 
 Dans votre repo Azure DevOps, vous aurez besoin d'une architecture similaire :
 
-Terraform
+📂 Terraform
 
-↳main.tf
+↳ 📄 main.tf
 
-↳variables.tf
+↳ 📄 variables.tf
 
  1. main.tf
  

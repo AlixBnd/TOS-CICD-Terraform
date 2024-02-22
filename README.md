@@ -155,7 +155,8 @@ Cependant, pour l'étape *apply*, spécifier le directory ainsi que le provider 
 
 Vous pouvez désormais lancer votre pipeline ✅
 
-![enter image description here](https://i.ibb.co/0VVtLYc/Capture-d-e-cran-2024-02-22-a-13-00-49.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/4993dd08-33d4-4699-b363-06d509fc907f)
+
 
 
 

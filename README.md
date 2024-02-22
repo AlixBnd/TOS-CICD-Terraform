@@ -97,29 +97,35 @@ Si la définition n'est pas faite, les variables seront inaccessibles à Terrafo
 
 Pour ajouter les variables nécessaires au déploiement de l'infrastructure, nous allons créer un groupe de variables.
 
-![enter image description here](https://i.ibb.co/1MR6wqX/Capture-d-e-cran-2024-02-22-a-10-23-21.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/13869bd1-cf5f-4808-a654-a4413384316b)
+
 
 Le résultat doit être similaire à ci-dessous, sans oublier de **fermer** les petits cadenas pour ne pas laisser la valeur en clair.
 
-![enter image description here](https://i.ibb.co/nzgMYBW/Capture-d-e-cran-2024-02-22-a-10-31-09.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/184bfb04-cdbf-4ddc-8ff8-a24a6ccfe494)
+
 
 Ajouter ensuite la pipeline dans les permissions de cette manière
 
-![enter image description here](https://i.ibb.co/0jLDF6b/Capture-d-e-cran-2024-02-22-a-11-09-17.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/bce3d4ed-7ef8-4529-a245-572af478d617)
+
 
 Il est aussi possible d'autoriser l'accès aux variables à tout le projet de la manière suivante : 
 
-![enter image description here](https://i.stack.imgur.com/qLpO0.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/1c787ebf-4ac1-45a7-83ec-21c7c9701d76)
+
 
  2. Configuration de la pipeline
 
 Dans la section "variables" de la pipeline, lier le groupe de variables créé précédemment, elles seront donc accessibles à la pipeline.
 
-![enter image description here](https://i.ibb.co/hRgfd5M/Capture-d-e-cran-2024-02-22-a-11-04-31.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/06a98ad8-7e11-461d-9f0a-acd1517c809c)
+
 
 Les tâches nécessaires sont les suivantes :
 
-![enter image description here](https://i.ibb.co/m9KKqvW/Capture-d-e-cran-2024-02-22-a-11-17-23.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/7dd5a2f0-3586-4ad0-a99f-72e5eb15443b)
+
 
 Dans la première tache Command Line Script, cette commande sera exécutée afin de se connecter à son compte Azure :
 
@@ -145,13 +151,16 @@ Ce dernier permettra de créer le backend qui stockera le fichier tfstate dans u
 
 *Note: Le chemin indiqué dans Key sera celui où le fichier tfstate sera situé dans le blob*
 
-![enter image description here](https://i.ibb.co/h2Csszv/Capture-d-e-cran-2024-02-22-a-11-32-40.png)
-![enter image description here](https://i.ibb.co/Bz5vTG8/Capture-d-e-cran-2024-02-22-a-11-33-55.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/b8a94573-4beb-4e00-89e8-3d8ff877a8d2)
+
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/5dd2835d-c814-4133-b426-3d2e72c6588e)
+
 
 Ensuite, pour *fmt* et *validate*, il suffit de spécifier le configuration directory.
 Cependant, pour l'étape *apply*, spécifier le directory ainsi que le provider comme ci-dessous :
 
-![enter image description here](https://i.ibb.co/r6Pjthr/Capture-d-e-cran-2024-02-22-a-11-40-34.png)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/c6de8831-520a-4410-86a2-72db49f39d70)
+
 
 Vous pouvez désormais lancer votre pipeline ✅
 

@@ -1,5 +1,8 @@
 # TOS CICD TERRAFORM
 
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/a58318c9-8bb6-47aa-b476-6f00afa55f0e)
+
+
 Qu'est-ce que Terraform ? Terraform est un logiciel d'infrastructure as code multicloud. Si vous utilisez ce dernier, il est possible de déployer votre infrastructure dans Azure grâce au CICD d'Azure DevOps.
 
 # Pré-requis
@@ -140,11 +143,11 @@ Dans la seconde tâche, cette commande sera exécutée et sera primordiale pour 
 
 L'étape *Use Terraform Latest* aura pour but d'utiliser la dernière version de Terraform dans le CLI.
 
-Le *Terraform Init* est l'une des étapes la plus importante, il ne faut donc pour louper sa configuration.
+Le *Terraform Init* est l'une des étapes la plus importante, il ne faut donc pas louper sa configuration.
 
-Premièrement, ne pas oublier de spécifier le bon configuration directory "terraform" si l'arborescence présentée à la première étape est respectée. Cela rendra accessibles les fichiers de Terraform.
+**Premièrement**, ne pas oublier de spécifier le bon configuration directory "terraform" si l'arborescence présentée à la première étape est respectée. Cela rendra accessibles les fichiers de Terraform.
 
-Ensuite, ne pas oublier de configurer le AzureRM Backend Configuration.
+Ensuite, ne pas oublier de configurer le **AzureRM Backend Configuration**.
 Ce dernier permettra de créer le backend qui stockera le fichier tfstate dans un blob.
 
 **Attention** chacune des valeurs doivent correspondre à celles indiquée dans la section backend de votre main.

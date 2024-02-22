@@ -14,7 +14,7 @@ Qu'est-ce que Terraform ? Terraform est un logiciel d'infrastructure as code mul
 	 - Terraform by Microsoft Labs
  
  
-Pour acquérir une compréhension basique de Terraform, je vous invite à suivre le tutoriel proposé sur le site officiel : 
+Pour acquérir une compréhension basique de Terraform, je vous invite à suivre le tutoriel proposé sur le site officiel :
 
 https://developer.hashicorp.com/terraform/tutorials/azure-get-started
 

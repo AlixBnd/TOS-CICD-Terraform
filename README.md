@@ -23,7 +23,8 @@ https://developer.hashicorp.com/terraform/tutorials/azure-get-started
 Dans votre repo Azure DevOps, vous aurez besoin d'une architecture similaire :
 
 Terraform
-|
+
+
 |---> main.tf
 |---> variables.tf
 

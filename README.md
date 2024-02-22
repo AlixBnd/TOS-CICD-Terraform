@@ -28,6 +28,8 @@ Dans votre repo Azure DevOps, vous aurez besoin d'une architecture similaire :
 
 ↳ 📄 variables.tf
 
+
+
  1. main.tf
  
 

@@ -99,6 +99,8 @@ Si la définition n'est pas faite, les variables seront inaccessibles à Terrafo
 
 ## Azure DevOps
 
+## Créer une pipeline vide avant de commencer
+
  1. Ajout des variables
 
 Pour ajouter les variables nécessaires au déploiement de l'infrastructure, nous allons créer un groupe de variables.

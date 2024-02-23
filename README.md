@@ -134,6 +134,14 @@ Les tâches nécessaires sont les suivantes :
 
 ![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/7dd5a2f0-3586-4ad0-a99f-72e5eb15443b)
 
+Pour ajouter chacune des étapes Terraform (init, fmt, validate et apply), ajouter la tâche Terraform CLI et choisir la commande dans le menu déroulant
+
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/c36ea55b-fe21-49fa-a49b-1e223c14eb16)
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/5c5ed797-d0a6-4d58-a172-7fed319662c3)
+
+
+
+
 
 Dans la première tache Command Line Script, cette commande sera exécutée afin de se connecter à son compte Azure :
 

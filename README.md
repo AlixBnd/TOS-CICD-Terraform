@@ -134,6 +134,11 @@ Les tâches nécessaires sont les suivantes :
 
 ![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/7dd5a2f0-3586-4ad0-a99f-72e5eb15443b)
 
+Pour l'étape Terraform Installer, choisir la tâche sans faire aucune modification
+
+![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/32e7294f-273a-4a84-b791-4468f4ec9f5d)
+
+
 Pour ajouter chacune des étapes Terraform (init, fmt, validate et apply), ajouter la tâche Terraform CLI et choisir la commande dans le menu déroulant
 
 ![image](https://github.com/AlixBnd/TOS-CICD-Terraform/assets/137909386/c36ea55b-fe21-49fa-a49b-1e223c14eb16)

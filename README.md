@@ -10,8 +10,8 @@ Qu'est-ce que Terraform ? Terraform est un logiciel d'infrastructure as code mul
  - Compréhension basique de Terraform
  - Compréhension basique d'Azure et Azure DevOps
  - Extensions Azure DevOps
-	 -  Azures Pipelines Terraform Task by Jason Johnson
-	 - Terraform by Microsoft Labs
+	 - Azures Pipelines Terraform Task by Jason Johnson (https://marketplace.visualstudio.com/items?itemName=JasonBJohnson.azure-pipelines-tasks-terraform)
+	 - Terraform by Microsoft Labs (https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks)
  
  
 Pour acquérir une compréhension basique de Terraform, je vous invite à suivre le tutoriel proposé sur le site officiel :
